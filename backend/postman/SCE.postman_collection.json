@@ -1,0 +1,37 @@
+{
+	"info": {
+		"_postman_id": "e7cd9fe7-c175-4e9f-9b4e-49d047bb2123",
+		"name": "SCE",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "31542874"
+	},
+	"item": [
+		{
+			"name": "New Request",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "[\r\n  {\r\n    \"id\": 1,\r\n    \"name\": \"FIFA 15\",\r\n    \"category\": \"videogames\",\r\n    \"image\": \"p1_img\",\r\n    \"price\": 3.99,\r\n    \"description\": \"Football simulation video game.\"\r\n  },\r\n  {\r\n    \"id\": 2,\r\n    \"name\": \"GTAIV\",\r\n    \"category\": \"videogames\",\r\n    \"image\": \"p2_img\",\r\n    \"price\": 69.95,\r\n    \"description\": \"Open-world action-adventure game developed by Rockstar North and published by Rockstar Games.\"\r\n  },\r\n  {\r\n    \"id\": 3,\r\n    \"name\": \"Super Mario Bros\",\r\n    \"category\": \"videogames\",\r\n    \"image\": \"p3_img\",\r\n    \"price\": 19.95,\r\n    \"description\": \"Platform game developed and published by Nintendo for the Nintendo Entertainment System.\"\r\n  },\r\n  {\r\n    \"id\": 4,\r\n    \"name\": \"Super Mario Kart\",\r\n    \"category\": \"videogames\",\r\n    \"image\": \"p4_img\",\r\n    \"price\": 15.95,\r\n    \"description\": \"Racing game developed and published by Nintendo for the Super Nintendo Entertainment System.\"\r\n  },\r\n  {\r\n    \"id\": 5,\r\n    \"name\": \"MarioParty\",\r\n    \"category\": \"videogames\",\r\n    \"image\": \"p5_img\",\r\n    \"price\": 13.00,\r\n    \"description\": \"Series of party video games developed by NDcube and published by Nintendo.\"\r\n  },\r\n  {\r\n    \"id\": 6,\r\n    \"name\": \"Wii Sports\",\r\n    \"category\": \"videogames\",\r\n    \"image\": \"p6_img\",\r\n    \"price\": 12.95,\r\n    \"description\": \"Sports game developed and published by Nintendo for the Wii console.\"\r\n  },\r\n  {\r\n    \"id\": 7,\r\n    \"name\": \"Zelda\",\r\n    \"category\": \"videogames\",\r\n    \"image\": \"p7_img\",\r\n    \"price\": 10.00,\r\n    \"description\": \"Series of action-adventure video games created by Shigeru Miyamoto and Takashi Tezuka and developed and published by Nintendo.\"\r\n  },\r\n  {\r\n    \"id\": 8,\r\n    \"name\": \"Farcry3\",\r\n    \"category\": \"videogames\",\r\n    \"image\": \"p8_img\",\r\n    \"price\": 9.95,\r\n    \"description\": \"Open-world first-person shooter developed by Ubisoft Montreal and published by Ubisoft.\"\r\n  },\r\n  {\r\n    \"id\": 9,\r\n    \"name\": \"Minecraft\",\r\n    \"category\": \"videogames\",\r\n    \"image\": \"p9_img\",\r\n    \"price\": 19.95,\r\n    \"description\": \"Construction game, of the 'open world' or sandbox type, originally created by the Swede Markus Persson.\"\r\n  },\r\n  {\r\n    \"id\": 10,\r\n    \"name\": \"PS5\",\r\n    \"category\": \"consoles\",\r\n    \"price\": 550.95,\r\n    \"description\": \"Console - Sony PlayStation 5 Slim Digital Edition, 1 TB SSD, 4K, 1 controller, Chasis D, White.\"\r\n  },\r\n  {\r\n    \"id\": 11,\r\n    \"name\": \"Nintendo Switch\",\r\n    \"category\": \"consoles\",\r\n    \"price\": 425.95,\r\n    \"description\": \"Console - Nintendo Switch OLED, 7, Joy-Con, 64 GB, White.\"\r\n  },\r\n  {\r\n    \"id\": 12,\r\n    \"name\": \"Microsoft Xbox Series\",\r\n    \"category\": \"consoles\",\r\n    \"price\": 650.95,\r\n    \"description\": \"Console - Microsoft Xbox Series X, 1 TB SSD, Black.\"\r\n  },\r\n  {\r\n    \"id\": 13,\r\n    \"name\": \"PS4\",\r\n    \"category\": \"consoles\",\r\n    \"price\": 349.95,\r\n    \"description\": \"Console PS4 - SONY 9407577, 500 GB, Black.\"\r\n  },\r\n  {\r\n    \"id\": 14,\r\n    \"name\": \"Wireless headphones Sony\",\r\n    \"category\": \"accessories\",\r\n    \"price\": 167.95,\r\n    \"description\": \"Wireless headphones - Sony Pulse Elite, Bluetooth, For PS5, Noise cancellation, White.\"\r\n  },\r\n  {\r\n    \"id\": 15,\r\n    \"name\": \"Game Controller Xbox\",\r\n    \"category\": \"accessories\",\r\n    \"price\": 71.95,\r\n    \"description\": \"Game Controller Xbox - Microsoft Xbox Controller Wireless QAU-0009, For Xbox, Bluetooth, Shock Blue.\"\r\n  },\r\n  {\r\n    \"id\": 16,\r\n    \"name\": \"PS gift card\",\r\n    \"category\": \"accessories\",\r\n    \"price\": 60.00,\r\n    \"description\": \"PlayStation gift card €60 - Sony Playstation Live Card Plus, PS4 and PS5.\"\r\n  },\r\n  {\r\n    \"id\": 17,\r\n    \"name\": \"PS4 controller\",\r\n    \"category\": \"accessories\",\r\n    \"price\": 55.95,\r\n    \"description\": \"PS4 controller - Sony PS4 DualShock 4 V2, Wireless, Touch panel, Black.\"\r\n  },\r\n  {\r\n    \"id\": 18,\r\n    \"name\": \"Gaming headphones - LOGITECH\",\r\n    \"category\": \"accessories\",\r\n    \"price\": 102.95,\r\n    \"description\": \"Gaming headphones - LOGITECH, Circumaurales, Black.\"\r\n  },\r\n  {\r\n    \"id\": 19,\r\n    \"name\": \"Micro SDXC Card Nintendo\",\r\n    \"category\": \"accessories\",\r\n    \"price\": 25.95,\r\n    \"description\": \"Micro SDXC Card - SanDisk Nintendo® License, Apex Legends, 128 GB, 100MB/s, UHS-I, U3, A1, Class 10, Gray.\"\r\n  }\r\n]",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:4000/games",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"games"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
