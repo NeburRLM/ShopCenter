@@ -41,5 +41,5 @@ ShopCenter is an e-commerce platform specializing in the sale of video games, co
 - `typeorm migration:run -d postgresql/data-source.js`
 
 ## Run project
-- Backend: `node index.js`
+- Backend: Execute the postman query and `node index.js` 
 - Frontend: `npm start`
